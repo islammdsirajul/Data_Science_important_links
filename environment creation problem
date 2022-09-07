@@ -1,0 +1,13 @@
+#environment creation er jonno (2-3)
+conda create -n ml python=3.7
+conda activate ml
+
+
+# jodi jupyter open na hoye ei error show kore tahole nicher codes gradualy use korte hobe "ImportError: cannot import name 'soft_unicode' from 'markupsafe' (C:\Users\Md Sirajul Islam\AppData\Roaming\Python\Python39\site-packages\markupsafe\__init__.py)"
+
+pip install jupyter notebook
+jupyter notebook  # jodi solve hoy tahole porer code gulo use korar dorkar nei, ar solve na hole next steps
+pip uninstall zmq
+pip install zmq
+pip install markupsafe==2.0.1
+jupyter notebook
